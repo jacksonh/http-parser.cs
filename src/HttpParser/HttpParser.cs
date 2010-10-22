@@ -44,6 +44,11 @@ namespace HttpParser {
 			}
 		}
 
+		public bool Strict {
+			get { return strict; }
+			set { strict = value; }
+		}
+
 		public int Major {
 			get { return http_major; }
 		}
